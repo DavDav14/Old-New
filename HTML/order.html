@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+</head>
+<body>
+    <div class="header">
+        <div class="header-up">
+            <img src="../assets/img/logo.png" alt="">
+        </div>
+        <div class="header-bot">
+            <p>Home</p>
+            <a class='order' href="../index.html">
+                Back to Home
+            </a>
+        </div>
+    </div>
+
+    <div class="content-order">
+        <div class='content-order1'>
+            <p>Ordering Cake</p> 
+        <hr>
+            <br>
+        </div>
+
+        <form class="order-form">
+            <div class="form">
+                 <label for="nama">Name</label>
+                 <input type="text" name="nama" id="nama" placeholder="Masukkan nama anda">
+            </div>
+            <br>
+            <div class="form">
+                <label for="address">Address</label>
+                <textarea name="address" id="address"  cols="30" rows="2" placeholder="Masukkan alamat anda">
+                </textarea>
+           </div>
+           <br>
+           <label for="jk">Jenis Kelamin:</label>
+                <br>
+                    <input type="radio" name="jk" id="jk"> 
+                    <label for="jk">Laki-laki</label>
+                    <input type="radio" name="jk" id="jk"> 
+                    <label for="jk">Perempuan</label>
+                <br>
+                <br>
+            <div class="form">
+                <label for="cake">Cake</label>
+                <select name="cake" id="cake">
+                    <option value="Chocolate Cake">Chocolate Cake</option>
+                    <option value="Caramello Cake">Caramello Cake</option>
+                    <option value="Carrot Cake">Carrot Cake</option>
+                    <option value="Cream Cake">Cream Cake</option>
+                    <option value="Easter Nest Cake">Easter Nest Cake</option>
+                    <option value="Mint Patty Cake">Mint Patty Cake</option>
+                </select>
+               </div>
+               <br>
+            <div id="order-submit">
+                <button type="submit">Order Now !</button>
+            </div>  
+        </form>
+    </div>
+
+    <div class="footer">
+        <div class="footer-left">
+            <a href="https://www.facebook.com"> 
+                <img class='fb'src="../assets/img/facebook.png" alt="">
+            </a>
+            <a href="https://www.instagram.com">
+                <img class='ig'src="../assets/img/instagram.png" alt="">
+            </a>
+        </div>
+        <div class="footer-right">
+            <p>Made by Calvin Fernando (LN17-2) </p> 
+        </div>
+    </div>
+</body>
+</html>
